@@ -1,34 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sancathon 2021 Website!!1!11
 
-## Getting Started
+## O que usamos?
 
-First, run the development server:
+- [NextJS](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+
+Tem o ótimo design da Marine Golffeto [Figma Design](https://www.figma.com/file/ARdCZAqAexgc6L2SjgIXVE/Untitled?node-id=325%3A285)
+
+## Como começar a olhar ou codar no projeto?
+
+Primeiro instale:
+
+- [NodeJS](http://nodejs.org/)
+- [Yarn](https://yarnpkg.com/lang/en/docs/cli/install/)
 
 ```bash
-npm run dev
-# or
-yarn dev
+# baixe o repositório com o Clone
+$ git clone https://github.com/sancathon/sancathon-2021.git
+
+# Intale as dependencias (Coloque os plugins Eslint e Prettier tbm)
+$ yarn install
+
+# Inicia o ambiente de desenvolvimento na porta 8082
+$ yarn dev
+
+# Formatar o código (se tiver settado certinho os plugins ele vai fazer isso automatico quando salvar e sempre dispara qualquer erro fora do nosso padrão)
+$ yarn lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:8082](http://localhost:8082) no browser!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Comandos
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- `dev`: runs your application on `localhost:8082`.
+- `build`: creates the production build version.
+- `start`: starts a simple server with the build production code.
+- `lint`: runs the linter in all components and pages.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Talvez tenha mais aqui: [package.json](package.json) da uma olhada
 
-## Learn More
+## Não conhece as tecnologias? Quer conteudo util?
 
-To learn more about Next.js, take a look at the following resources:
+### Next.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) 
+- [Learn Next.js](https://nextjs.org/learn) 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Otimização
 
-## Deploy on Vercel
+- [How to Reduce Next.js Bundle Size](https://medium.com/ne-digital/how-to-reduce-next-js-bundle-size-68f7ac70c375)
+- [How to Optimize LCP and Speed Index for Next.js Websites](https://medium.com/ne-digital/how-to-improve-lcp-and-speed-index-for-next-js-websites-f129ae776835)
+- [Making Google Fonts Faster](https://sia.codes/posts/making-google-fonts-faster/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Interesting things to read
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Don't Overthink It (Flexbox) Grids](https://css-tricks.com/dont-overthink-flexbox-grids/)
+- [What is Atomic Design](https://www.youtube.com/watch?v=gLJvbrwv67c)
+- [Managing Assets and SEO – Learn Next.js](https://www.youtube.com/watch?v=fJL1K14F8R8)
+- [Developing auth form with React Hook Form](https://youtu.be/1BUT7T9ThlU?list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR&t=1078)
+- [Building Forms with Chakra UI and React Hook Form](https://chakra-ui.com/guides/integrations/with-hook-form)
+- [Adding Animation to Chakra UI Components with Framer Motion](https://chakra-ui.com/guides/integrations/with-framer)
+- [5 React Dev tools tricks](https://blog.logrocket.com/5-things-you-didnt-know-about-react-devtools-2c6e0ef22529/)
+- [Tao of React - Software Design, Architecture & Best Practices](https://alexkondov.com/tao-of-react/)
+
+### Extensões uteis
+
+- [SVG Preview](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview)
+
