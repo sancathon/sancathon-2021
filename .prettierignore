@@ -1,7 +1,4 @@
 *.md
-!.storybook
-!.jest
 build/
-coverage/
 src/assets/icons/**/*.svg
-src/components/organisms/TradingView/
+
