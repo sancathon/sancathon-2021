@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build --debug",
+    "dev": "next dev -p 8082",
+    "lint": "eslint ./src",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "start-dev": "next start -p 8082",
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.6.6",
@@ -19,6 +21,15 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "eslint-config-next": "11.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sort-keys-custom-order-fix": "^0.1.1",
+    "eslint-plugin-unused-imports": "^1.1.0",
+    "prettier": "^2.1.2",
+    "lint-staged": "^10.5.4"
   }
 }
