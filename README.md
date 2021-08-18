@@ -54,7 +54,7 @@ Talvez tenha mais aqui: [package.json](package.json) da uma olhada
 - [How to Optimize LCP and Speed Index for Next.js Websites](https://medium.com/ne-digital/how-to-improve-lcp-and-speed-index-for-next-js-websites-f129ae776835)
 - [Making Google Fonts Faster](https://sia.codes/posts/making-google-fonts-faster/)
 
-### Interesting things to read
+### Coisas interessantes pra ler
 
 - [Don't Overthink It (Flexbox) Grids](https://css-tricks.com/dont-overthink-flexbox-grids/)
 - [What is Atomic Design](https://www.youtube.com/watch?v=gLJvbrwv67c)
