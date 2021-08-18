@@ -1,5 +1,5 @@
 import { Text } from '@chakra-ui/react'
 
 export default function Home() {
-  return <Text>Hello word</Text>
+  return <Text>Vamo codar</Text>
 }
