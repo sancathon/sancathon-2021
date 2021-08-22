@@ -113,11 +113,11 @@ export default function Home() {
     pb='28'
     >
       <Center><Heading textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff" fontFamily="roboto" pt='16' color='#FFF'>APOIO</Heading></Center>
-      <Flex mt='40' mx='32'>  
+      <HStack  mt='30' mx='32'>  
       <Image src={Buspay}/>
       <Image src={NTU}/>
       <Image src={Scipopulis}/>
-      </Flex>
+      </HStack>
     </Box>
 
 
