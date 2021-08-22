@@ -4,8 +4,8 @@ export const typography = {
   },
 
   fonts: {
-    body: '',
-    heading: '',
+    body: 'Roboto',
+    heading: 'Mulish',
     mono: `"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace`
   },
 
