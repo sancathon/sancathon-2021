@@ -38,13 +38,13 @@ export const ApoioSection = () => {
           </Flex>
         </Link>
 
-        <Link href={links.ntu} isExternal>
+        <Link href={links.scipopulis} isExternal>
           <Flex as="a" mx="10" mt="8" h="36" align="center">
             <Image src="/img/logo-scipopulis.png" width={415} height={105} />
           </Flex>
         </Link>
 
-        <Link href={links.scipopulis} isExternal>
+        <Link href={links.ntu} isExternal>
           <Flex as="a" mx="10" mt="8" h="36" align="center">
             <Image src="/img/logo-ntu.png" width={231} height={137} />
           </Flex>

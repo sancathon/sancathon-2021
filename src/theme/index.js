@@ -1,5 +1,7 @@
 import { extendTheme } from '@chakra-ui/react'
 
+// Component style overrides
+import { components } from './components'
 // Foundational style overrides
 import { foundations } from './foundations'
 // Global style overrides
@@ -12,6 +14,7 @@ const config = {
 }
 
 export const theme = extendTheme({
+  components,
   config,
   styles,
   ...foundations
