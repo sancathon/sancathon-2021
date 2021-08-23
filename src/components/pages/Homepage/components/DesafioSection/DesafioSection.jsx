@@ -10,9 +10,9 @@ import {
 } from '@chakra-ui/react'
 import Image from 'next/image'
 
-import bg_sc from '/img/Sao_Carlos.png'
-
 export const DesafioSection = () => {
+  const bg_sc = '/img/Sao_Carlos.png'
+
   return (
     <Box>
       <Flex px="40">

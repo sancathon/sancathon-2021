@@ -1,13 +1,13 @@
 import { Box, Center, Heading, HStack, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
-import EESC from '/img/EESC.png'
-import NEU from '/img/NEU.png'
-import SEA from '/img/SEA.png'
-import SIEEL from '/img/SIEEL.png'
-import USP from '/img/USP.png'
-
 export const OrganizacaoSection = () => {
+  const EESC = '/img/EESC.png'
+  const NEU = '/img/NEU.png'
+  const SEA = '/img/SEA.png'
+  const SIEEL = '/img/SIEEL.png'
+  const USP = '/img/USP.png'
+
   return (
     <Box bgColor="#FFF" pb="28">
       <Center>

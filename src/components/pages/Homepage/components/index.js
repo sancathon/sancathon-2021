@@ -1,1 +1,7 @@
+export * from './ApoioSection'
+export * from './ContatosSection'
+export * from './CronogramaSection'
+export * from './DesafioSection'
+export * from './OrganizacaoSection'
+export * from './PremiacaoSection'
 export * from './SancathonSection'

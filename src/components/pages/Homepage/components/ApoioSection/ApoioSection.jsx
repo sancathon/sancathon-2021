@@ -1,11 +1,11 @@
 import { Box, Center, Heading, HStack, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
-import Buspay from '/img/Logo_Buspay_Base.png'
-import Scipopulis from '/img/marca_scipopulis-25.png'
-import NTU from '/img/NTU.png'
-
 export const ApoioSection = () => {
+  const Buspay = '/img/Logo_Buspay_Base.png'
+  const Scipopulis = '/img/marca_scipopulis-25.png'
+  const NTU = '/img/NTU.png'
+
   return (
     <Box
       bgColor="#FFF"

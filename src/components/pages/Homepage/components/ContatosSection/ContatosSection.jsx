@@ -1,12 +1,12 @@
 import { Box, Center, Heading, HStack, Link, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
-import email from '/img/email.png'
-import facebook from '/img/facebook.png'
-import instagram from '/img/instagram.png'
-import linkedin from '/img/linkedin.png'
-
 export const ContatosSection = () => {
+  const email = '/img/email.png'
+  const facebook = '/img/facebook.png'
+  const instagram = '/img/instagram.png'
+  const linkedin = '/img/linkedin.png'
+
   return (
     <Box bgColor="#FFF" pb="28">
       <Center>
