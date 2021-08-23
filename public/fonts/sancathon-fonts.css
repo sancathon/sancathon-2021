@@ -2,26 +2,29 @@
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/Mulish/Mulish-Regular.ttf') format('ttf');
+  src: local('Mulish'), local('Mulish-Regular'), url('/fonts/Mulish/Mulish-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
-  src: url('/fonts/Mulish/Mulish-Bold.ttf') format('ttf');
+  src: local('Mulish'), local('Mulish-Bold'), url('/fonts/Mulish/Mulish-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 600;
-  src: url('/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+    url('/fonts/Roboto/Roboto-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/Roboto/Roboto-Black.ttf') format('ttf');
+  font-weight: 900;
+  src: local('Roboto'), local('Roboto-Black'),
+    url('/fonts/Roboto/Roboto-Black.woff') format('woff');
 }
+

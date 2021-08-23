@@ -46,13 +46,20 @@ export const SancathonSection = () => {
         </Box>
 
         <Box zIndex="1000" textAlign="center">
-          <Heading fontFamily="Roboto" fontWeight="black">
+          <Heading
+            fontFamily="Roboto"
+            fontWeight="black"
+            color="transparent"
+            sx={{ WebkitTextStroke: '2px white' }}
+            lineHeight="3.5rem"
+          >
             10 11 12
             <br />
             SETEMBRO
             <br />
             2021
           </Heading>
+
           <Text as="h3">Hackathon 100% online!</Text>
           <Button>Inscrever-se</Button>
         </Box>

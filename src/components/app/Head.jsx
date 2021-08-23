@@ -29,33 +29,33 @@ export default function AppHead() {
 
       <link
         rel="preload"
-        href="/fonts/Mulish/Mulish-Regular.ttf"
+        href="/fonts/Mulish/Mulish-Regular.woff"
         as="font"
-        type="font/ttf"
+        type="font/woff"
         crossOrigin="anonymous"
       />
 
       <link
         rel="preload"
-        href="/fonts/Mulish/Mulish-Bold.ttf"
+        href="/fonts/Mulish/Mulish-Bold.woff"
         as="font"
-        type="font/ttf"
+        type="font/woff"
         crossOrigin="anonymous"
       />
 
       <link
         rel="preload"
-        href="/fonts/Roboto/Roboto-Regular.ttf"
+        href="/fonts/Roboto/Roboto-Regular.woff"
         as="font"
-        type="font/ttf"
+        type="font/woff"
         crossOrigin="anonymous"
       />
 
       <link
         rel="preload"
-        href="/fonts/Roboto/Roboto-Black.ttf"
+        href="/fonts/Roboto/Roboto-Black.woff"
         as="font"
-        type="font/ttf"
+        type="font/woff"
         crossOrigin="anonymous"
       />
 

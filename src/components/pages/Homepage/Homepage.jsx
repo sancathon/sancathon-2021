@@ -1,10 +1,10 @@
 import {
-  ApoioSection,
-  ContatosSection,
-  CronogramaSection,
-  DesafioSection,
-  OrganizacaoSection,
-  PremiacaoSection,
+  // ApoioSection,
+  // ContatosSection,
+  // CronogramaSection,
+  // DesafioSection,
+  // OrganizacaoSection,
+  // PremiacaoSection,
   SancathonSection
 } from './components'
 
@@ -12,12 +12,12 @@ export const Homepage = () => {
   return (
     <>
       <SancathonSection />
-      <DesafioSection />
+      {/* <DesafioSection />
       <CronogramaSection />
       <ApoioSection />
       <PremiacaoSection />
       <ContatosSection />
-      <OrganizacaoSection />
+      <OrganizacaoSection /> */}
     </>
   )
 }
