@@ -4,12 +4,12 @@ export const CronogramaSection = () => {
   return (
     <Box
       as="section"
-      bgColor= "darkGray"
+      bgColor="darkGray"
       backgroundImage="/img/hex.png"
       bgPosition="right top"
       bgRepeat="no-repeat"
       pt="16"
-      pb="20"
+      pb={{ base: 20, md: '48' }}
     >
       <Heading
         textAlign="center"

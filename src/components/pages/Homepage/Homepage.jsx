@@ -50,7 +50,12 @@ export const Homepage = () => {
           <SancathonLogo w="52" h="12" />
         </ScrollLink>
 
-        <HStack fontFamily="Mulish" fontWeight="700" spacing="8">
+        <HStack
+          display={{ base: 'none', xl: 'flex' }}
+          fontFamily="Mulish"
+          fontWeight="700"
+          spacing="8"
+        >
           <ScrollLink
             to="desafio"
             spy={true}
@@ -60,7 +65,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('desafio')}
           >
-            <Text color={activeSection === 'desafio' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'desafio' ? 'mariner' : 'black'}
+            >
               Desafio
             </Text>
           </ScrollLink>
@@ -74,7 +82,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('cronograma')}
           >
-            <Text color={activeSection === 'cronograma' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'cronograma' ? 'mariner' : 'black'}
+            >
               Cronograma
             </Text>
           </ScrollLink>
@@ -88,7 +99,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('apoio')}
           >
-            <Text color={activeSection === 'apoio' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'apoio' ? 'mariner' : 'black'}
+            >
               Apoio
             </Text>
           </ScrollLink>
@@ -102,7 +116,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('premiacao')}
           >
-            <Text color={activeSection === 'premiacao' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'premiacao' ? 'mariner' : 'black'}
+            >
               Premiacao
             </Text>
           </ScrollLink>
@@ -116,7 +133,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('contatos')}
           >
-            <Text color={activeSection === 'contatos' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'contatos' ? 'mariner' : 'black'}
+            >
               Contatos
             </Text>
           </ScrollLink>
@@ -130,7 +150,10 @@ export const Homepage = () => {
             offset={-50}
             onSetActive={() => handleSetActive('organizacao')}
           >
-            <Text color={activeSection === 'organizacao' ? 'mariner' : 'black'}>
+            <Text
+              cursor="pointer"
+              color={activeSection === 'organizacao' ? 'mariner' : 'black'}
+            >
               Organização
             </Text>
           </ScrollLink>

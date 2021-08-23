@@ -12,7 +12,7 @@ export const ApoioSection = () => {
       bgPosition="right top"
       bgRepeat="no-repeat"
       pt="16"
-      pb="20"
+      pb={{ base: 20, md: '48' }}
     >
       <Heading
         textAlign="center"

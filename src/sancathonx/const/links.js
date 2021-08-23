@@ -13,13 +13,13 @@ export const links = {
     'https://docs.google.com/document/d/1JEVvmQWqASfkWdQ0ELEhA0s-oDh5mjdJNb-ThNRg2XM/edit?usp=drivesdk',
 
   sancathon: {
+    email: 'mailto:sancathon@eesc.usp.br',
+
     facebook: 'https://www.facebook.com/sancathon',
 
     instagram: 'https://www.instagram.com/sancathon/',
 
-    linkedin: 'https://www.linkedin.com/company/sancathon/',
-
-    mail: 'mailto:sancathon@eesc.usp.br'
+    linkedin: 'https://www.linkedin.com/company/sancathon/'
   },
 
   scipopulis: 'https://scipopulis.com/',

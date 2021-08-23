@@ -110,6 +110,8 @@ export const SancathonSection = () => {
         textAlign="right"
         pr={{ base: 5, md: '20' }}
         fontSize="2xs"
+        minW="xs"
+        maxW="container.xl"
       >
         Foto: Nabeel Syed -By Unsplash
       </Text>
