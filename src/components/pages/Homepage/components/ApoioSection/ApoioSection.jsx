@@ -8,8 +8,8 @@ export const ApoioSection = () => {
     <Box
       as="section"
       bgColor="white"
-      bgImage="/img/hex.png, /img/hex.png"
-      bgPosition="right"
+      bgImage="url(/img/hex.png)"
+      bgPosition="right top"
       bgRepeat="no-repeat"
       pt="16"
       pb="20"
@@ -19,7 +19,7 @@ export const ApoioSection = () => {
         as="h1"
         fontWeight="black"
         color="transparent"
-        fontSize="5xl"
+        fontSize={{ base: '4xl', sm: '5xl' }}
         sx={{ WebkitTextStroke: '2px #DA0EFC' }}
       >
         APOIO
@@ -29,7 +29,7 @@ export const ApoioSection = () => {
         justifyContent="center"
         wrap="wrap"
         fontWeight="bold"
-        mt="20"
+        mt={{ base: '0', md: '20' }}
         mx="auto"
       >
         <Link href={links.buspay} isExternal>

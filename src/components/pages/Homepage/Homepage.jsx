@@ -4,7 +4,7 @@ import {
   CronogramaSection,
   DesafioSection,
   // OrganizacaoSection,
-  // PremiacaoSection,
+  PremiacaoSection,
   SancathonSection
 } from './components'
 
@@ -15,8 +15,8 @@ export const Homepage = () => {
       <DesafioSection />
       <CronogramaSection />
       <ApoioSection />
-      {/*
       <PremiacaoSection />
+      {/*
       <ContatosSection />
       <OrganizacaoSection />  */}
     </>

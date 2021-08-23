@@ -4,7 +4,7 @@ export const CronogramaSection = () => {
   return (
     <Box
       as="section"
-      bgColor="#302E2E"
+      bgColor= "darkGray"
       backgroundImage="/img/hex.png"
       bgPosition="right top"
       bgRepeat="no-repeat"
@@ -16,7 +16,7 @@ export const CronogramaSection = () => {
         as="h1"
         fontWeight="black"
         color="transparent"
-        fontSize="5xl"
+        fontSize={{ base: '4xl', sm: '5xl' }}
         sx={{ WebkitTextStroke: '2px #DA0EFC' }}
       >
         CRONOGRAMA

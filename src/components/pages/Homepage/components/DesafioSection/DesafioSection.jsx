@@ -58,7 +58,7 @@ export const DesafioSection = () => {
               as="h1"
               fontWeight="black"
               color="transparent"
-              fontSize="5xl"
+              fontSize={{ base: '4xl', sm: '5xl' }}
               sx={{ WebkitTextStroke: '2px white' }}
               lineHeight="3.5rem"
               position="absolute"
