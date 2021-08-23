@@ -4,10 +4,21 @@ import Image from 'next/image'
 //import{Header} from '../components/Header'
 
 import bg_sc from "./img/bg_2.png"
-import hex from "./img/Hex.png"
+//import hex from "./img/Hex.png"
 import NTU from "./img/NTU.png"
 import Buspay from "./img/Logo_Buspay_Base.png"
 import Scipopulis from "./img/marca_scipopulis-25.png"
+
+import instagram from "./img/instagram.png"
+import facebook from "./img/facebook.png"
+import linkedin from "./img/linkedin.png"
+import email from "./img/email.png"
+
+import USP from "./img/USP.png"
+import EESC from "./img/EESC.png"
+import SEA from "./img/SEA.png"
+import NEU from "./img/NEU.png"
+import SIEEL from "./img/SIEEL.png"
 
 
 export default function Home() {
@@ -17,15 +28,15 @@ export default function Home() {
       
       <Heading fontWeight='700' as='h1' color='black' >SancaThon</Heading>
       <HStack spacing="10%">
-          <Link fontFamily="Mulish" href="">Desafio</Link>
-          <Link variant="menu" href="">Cronograma</Link>
-          <Link variant="menu" href="">Apoio</Link>
-          <Link variant="menu" href="">Premiação</Link>
-          <Link variant="menu" href="">Edições Anteriores</Link>
+          <Link href="">Desafio</Link>
+          <Link href="">Cronograma</Link>
+          <Link href="">Apoio</Link>
+          <Link href="">Premiação</Link>
+          <Link href="">Edições Anteriores</Link>
       </HStack>
       <HStack>
-          <Button borderRadius="none" color="#3C64B1">Regulamento</Button>
-          <Button borderRadius="none" color='#fff' bg="#DA0EFC">Inscreva-se</Button>
+          <Link isExternal href='https://docs.google.com/document/d/1JEVvmQWqASfkWdQ0ELEhA0s-oDh5mjdJNb-ThNRg2XM/edit?usp=drivesdk'><Button borderRadius="none" color="#3C64B1">Regulamento</Button></Link>  
+          <Link isExternal href='https://forms.gle/tGYLEAhLXpR9NL3E6'><Button borderRadius="none" color='#fff' bg="#DA0EFC">Inscreva-se</Button></Link>
       </HStack>
     </HStack>
     
@@ -61,13 +72,13 @@ export default function Home() {
         <Text align="right" fontSize='xx-small'>Foto: Alberto Medeiros - Pinterest</Text>
       </Box>
     </Flex>
-    <Center>Para mais informações e um cronograma detalhado, consulte o <Link href='' color='red'> regulamento do evento</Link></Center>
+    <Center>Para mais informações e um cronograma detalhado, consulte o <Link ml='1' href='' color='red'> regulamento do evento</Link></Center>
     </Box>
       
     <Box 
     bgColor='#302E2E'
-    bgImage="url('./img/Hex.png')"
-    bgPosition="center"
+    backgroundImage="/img/Hex.png"
+    bgPosition="right"
     bgRepeat="no-repeat"
     pb='28'
     >
@@ -107,23 +118,23 @@ export default function Home() {
 
     <Box
     bgColor='#FFF'
-    bgImage="url(${hex})"
-    bgPosition="center"
+    bgImage="/img/Hex.png"
+    bgPosition="right"
     bgRepeat="no-repeat"
     pb='28'
     >
       <Center><Heading textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff" fontFamily="roboto" pt='16' color='#FFF'>APOIO</Heading></Center>
-      <HStack  mt='30' mx='32'>  
-      <Image src={Buspay}/>
-      <Image src={NTU}/>
-      <Image src={Scipopulis}/>
+      <HStack spacing='5%' mt='30' mx='32'>
+      <Box><Link href='https://www.buspay.com.br/'><Image src={Buspay}/></Link></Box>  
+      <Box><Link href='https://ntu.org.br/novo/Default.aspx?v=1232'><Image src={NTU}/></Link></Box>
+      <Box><Link href='https://scipopulis.com/'><Image src={Scipopulis}/></Link></Box>
       </HStack>
     </Box>
 
 
     <Box
     bgColor='#302E2E'
-    bgImage="url('./img/Premiacao.png')"
+    bgImage="img/Premiacao.png"
     bgPosition="center"
     bgRepeat="no-repeat"
     pb='28'
@@ -138,9 +149,9 @@ export default function Home() {
           <path d="M30.9037 20.2971C26.044 20.2971 22.1562 24.3769 22.1562 29.4767C22.1562 30.5987 23.031 31.5166 24.1001 31.5166C25.1693 31.5166 26.044 30.5987 26.044 29.4767C26.044 26.6208 28.1823 24.3769 30.9037 24.3769C31.9728 24.3769 32.8476 23.459 32.8476 22.337C32.8476 21.2151 31.9728 20.2971 30.9037 20.2971Z" fill="#302E2E"/>
           <path d="M61.909 82.7184L51.2177 50.0798C56.0774 44.7761 59.1876 37.5344 59.1876 29.5787C59.1876 13.2594 46.5524 0 31.0014 0C15.4505 0 2.81529 13.2594 2.81529 29.5787C2.81529 37.5344 5.82829 44.7761 10.7852 50.0798L0.093864 82.7184C-0.100523 83.4324 -0.00332819 84.1463 0.48264 84.7583C0.968608 85.2683 1.64896 85.5743 2.32932 85.3703L12.2431 83.1264L18.755 91.286C19.1438 91.796 19.6298 92 20.2129 92C20.3101 92 20.4073 92 20.6017 92C21.2821 91.898 21.8652 91.388 22.0596 90.6741L30.9042 63.4412L39.8461 90.6741C40.0404 91.388 40.6236 91.898 41.304 92C41.4012 92 41.4984 92 41.6927 92C42.2759 92 42.7619 91.694 43.1506 91.286L49.6626 83.1264L59.5764 85.3703C60.2567 85.5743 60.9371 85.2683 61.423 84.7583C62.0062 84.1463 62.1034 83.4324 61.909 82.7184ZM19.4354 85.9823L14.3813 79.5565C13.8954 78.9446 13.215 78.7406 12.4375 78.8426L4.66197 80.6785L13.701 53.0377C17.7831 56.3016 22.74 58.4435 28.1828 59.0554L19.4354 85.9823ZM6.60584 29.4767C6.60584 15.4013 17.4915 3.97783 30.9042 3.97783C44.317 3.97783 55.2027 15.4013 55.2027 29.4767C55.2027 43.5521 44.317 54.9756 30.9042 54.9756C17.4915 54.9756 6.60584 43.5521 6.60584 29.4767ZM49.371 78.9446C48.6907 78.8426 47.9131 79.0466 47.4272 79.6585L42.3731 85.9823L33.5285 58.9534C38.9713 58.4435 43.9282 56.3015 48.0103 52.9357L57.1465 80.6785L49.371 78.9446Z" fill="#302E2E"/>
           </svg></Icon>  
-          <Center><Heading as=''>1° Lugar</Heading></Center>
+          <Center><Heading>1° Lugar</Heading></Center>
           </Flex>
-          <Center><Text>R$2500,00</Text></Center>
+          <Center><Text fontWeight='bold' fontSize='2xl'>R$2500,00</Text></Center>
         </Box>
 
         <Box boxShadow='dark-lg' p='12' bg='white'>
@@ -151,9 +162,9 @@ export default function Home() {
           <path d="M30.9037 20.2971C26.044 20.2971 22.1562 24.3769 22.1562 29.4767C22.1562 30.5987 23.031 31.5166 24.1001 31.5166C25.1693 31.5166 26.044 30.5987 26.044 29.4767C26.044 26.6208 28.1823 24.3769 30.9037 24.3769C31.9728 24.3769 32.8476 23.459 32.8476 22.337C32.8476 21.2151 31.9728 20.2971 30.9037 20.2971Z" fill="#302E2E"/>
           <path d="M61.909 82.7184L51.2177 50.0798C56.0774 44.7761 59.1876 37.5344 59.1876 29.5787C59.1876 13.2594 46.5524 0 31.0014 0C15.4505 0 2.81529 13.2594 2.81529 29.5787C2.81529 37.5344 5.82829 44.7761 10.7852 50.0798L0.093864 82.7184C-0.100523 83.4324 -0.00332819 84.1463 0.48264 84.7583C0.968608 85.2683 1.64896 85.5743 2.32932 85.3703L12.2431 83.1264L18.755 91.286C19.1438 91.796 19.6298 92 20.2129 92C20.3101 92 20.4073 92 20.6017 92C21.2821 91.898 21.8652 91.388 22.0596 90.6741L30.9042 63.4412L39.8461 90.6741C40.0404 91.388 40.6236 91.898 41.304 92C41.4012 92 41.4984 92 41.6927 92C42.2759 92 42.7619 91.694 43.1506 91.286L49.6626 83.1264L59.5764 85.3703C60.2567 85.5743 60.9371 85.2683 61.423 84.7583C62.0062 84.1463 62.1034 83.4324 61.909 82.7184ZM19.4354 85.9823L14.3813 79.5565C13.8954 78.9446 13.215 78.7406 12.4375 78.8426L4.66197 80.6785L13.701 53.0377C17.7831 56.3016 22.74 58.4435 28.1828 59.0554L19.4354 85.9823ZM6.60584 29.4767C6.60584 15.4013 17.4915 3.97783 30.9042 3.97783C44.317 3.97783 55.2027 15.4013 55.2027 29.4767C55.2027 43.5521 44.317 54.9756 30.9042 54.9756C17.4915 54.9756 6.60584 43.5521 6.60584 29.4767ZM49.371 78.9446C48.6907 78.8426 47.9131 79.0466 47.4272 79.6585L42.3731 85.9823L33.5285 58.9534C38.9713 58.4435 43.9282 56.3015 48.0103 52.9357L57.1465 80.6785L49.371 78.9446Z" fill="#302E2E"/>
           </svg></Icon>  
-          <Center><Heading as=''>2° Lugar</Heading></Center>
+          <Center><Heading>2° Lugar</Heading></Center>
           </Flex>
-          <Center><Text>R$1000,00</Text></Center>
+          <Center><Text fontWeight='bold' fontSize='2xl'>R$1000,00</Text></Center>
         </Box>
 
         <Box boxShadow='dark-lg' p='12' bg='white'>
@@ -164,9 +175,9 @@ export default function Home() {
           <path d="M30.9037 20.2971C26.044 20.2971 22.1562 24.3769 22.1562 29.4767C22.1562 30.5987 23.031 31.5166 24.1001 31.5166C25.1693 31.5166 26.044 30.5987 26.044 29.4767C26.044 26.6208 28.1823 24.3769 30.9037 24.3769C31.9728 24.3769 32.8476 23.459 32.8476 22.337C32.8476 21.2151 31.9728 20.2971 30.9037 20.2971Z" fill="#302E2E"/>
           <path d="M61.909 82.7184L51.2177 50.0798C56.0774 44.7761 59.1876 37.5344 59.1876 29.5787C59.1876 13.2594 46.5524 0 31.0014 0C15.4505 0 2.81529 13.2594 2.81529 29.5787C2.81529 37.5344 5.82829 44.7761 10.7852 50.0798L0.093864 82.7184C-0.100523 83.4324 -0.00332819 84.1463 0.48264 84.7583C0.968608 85.2683 1.64896 85.5743 2.32932 85.3703L12.2431 83.1264L18.755 91.286C19.1438 91.796 19.6298 92 20.2129 92C20.3101 92 20.4073 92 20.6017 92C21.2821 91.898 21.8652 91.388 22.0596 90.6741L30.9042 63.4412L39.8461 90.6741C40.0404 91.388 40.6236 91.898 41.304 92C41.4012 92 41.4984 92 41.6927 92C42.2759 92 42.7619 91.694 43.1506 91.286L49.6626 83.1264L59.5764 85.3703C60.2567 85.5743 60.9371 85.2683 61.423 84.7583C62.0062 84.1463 62.1034 83.4324 61.909 82.7184ZM19.4354 85.9823L14.3813 79.5565C13.8954 78.9446 13.215 78.7406 12.4375 78.8426L4.66197 80.6785L13.701 53.0377C17.7831 56.3016 22.74 58.4435 28.1828 59.0554L19.4354 85.9823ZM6.60584 29.4767C6.60584 15.4013 17.4915 3.97783 30.9042 3.97783C44.317 3.97783 55.2027 15.4013 55.2027 29.4767C55.2027 43.5521 44.317 54.9756 30.9042 54.9756C17.4915 54.9756 6.60584 43.5521 6.60584 29.4767ZM49.371 78.9446C48.6907 78.8426 47.9131 79.0466 47.4272 79.6585L42.3731 85.9823L33.5285 58.9534C38.9713 58.4435 43.9282 56.3015 48.0103 52.9357L57.1465 80.6785L49.371 78.9446Z" fill="#302E2E"/>
           </svg></Icon>  
-          <Center><Heading as=''>3° Lugar</Heading></Center>
+          <Center><Heading>3° Lugar</Heading></Center>
           </Flex>
-          <Center><Text>R$500,00</Text></Center>
+          <Center><Text fontWeight='bold' fontSize='2xl'>R$500,00</Text></Center>
         </Box>
 
       </HStack>
@@ -177,8 +188,27 @@ export default function Home() {
     pb='28'
     >
       <Center><Heading textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff" fontFamily="roboto" pt='16' color='#FFF'>CONTATOS</Heading></Center>
-      <HStack mt='52' mx='32'>
+      <Center><Text fontWeight="bold">Entre em contato conosco pelos canais:</Text></Center>
+      <HStack spacing='20%' mt='40' mx='32'>
+        <Box>
+          <Center><Link isExternal href='https://www.instagram.com/sancathon/'><Image width='71px' height='71px' src={instagram}/></Link></Center>
+          <Center><Text fontSize='small'>@sancathon</Text></Center>
+        </Box>
 
+        <Box>
+          <Center><Link isExternal href='https://www.facebook.com/sancathon'><Image width='71px' height='71px' src={facebook}/></Link></Center>
+          <Center><Text fontSize='small'>@fb.com/sancathon</Text></Center>
+        </Box>
+
+        <Box>
+          <Center><Link isExternal href='https://www.linkedin.com/company/sancathon/'><Image width='71px' height='71px' src={linkedin}/></Link></Center>
+          <Center><Text fontSize='small'>/company/sancathon</Text></Center>
+        </Box>
+
+        <Box>
+          <Center><Link isExternal href='mailto:sancathon@eesc.usp.br'><Image width='71px' height='71px' src={email}/></Link></Center>
+          <Center><Text fontSize='small'>sancathon@eesc.usp.br</Text></Center>
+        </Box>
       </HStack>
     </Box>
 
@@ -186,10 +216,14 @@ export default function Home() {
     bgColor='#FFF'
     pb='28'
     >
-      <Center><Heading textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff" fontFamily="roboto" pt='16' color='#FFF'>ORGANIZAÇÃO</Heading></Center>
-      <Flex mt='52' mx='32'>
-
-      </Flex>
+      <Center><Heading textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff" fontFamily="roboto" pt='16' color='#FFF'>ORGANIZAÇÃO:</Heading></Center>
+      <HStack spacing="5%" mt='30' mx={{base: '52', md: '32'}}>
+      <Center><Link isExternal href='https://www5.usp.br/'><Image src={USP}/></Link></Center>
+      <Center><Link isExternal href='https://eesc.usp.br/'><Image src={EESC}/></Link></Center>
+      <Center><Link isExternal href='https://www.facebook.com/SEA.EESC'><Image src={SEA}/></Link></Center>
+      <Center><Link isExternal href='https://www.facebook.com/neusaocarlos'><Image src={NEU}/></Link></Center>
+      <Center><Link isExternal href='https://www.facebook.com/SIEELSaoCarlos'><Image src={SIEEL}/></Link></Center>
+      </HStack>
     </Box>
 
   </>
