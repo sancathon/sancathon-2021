@@ -1,5 +1,5 @@
 import {
-  // ApoioSection,
+  ApoioSection,
   // ContatosSection,
   CronogramaSection,
   DesafioSection,
@@ -14,7 +14,8 @@ export const Homepage = () => {
       <SancathonSection />
       <DesafioSection />
       <CronogramaSection />
-      {/* <ApoioSection />
+      <ApoioSection />
+      {/*
       <PremiacaoSection />
       <ContatosSection />
       <OrganizacaoSection />  */}

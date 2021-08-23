@@ -1,45 +1,55 @@
-import { Box, Center, Heading, HStack, Link } from '@chakra-ui/react'
+import { Box, Flex, Heading, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
-export const ApoioSection = () => {
-  const Buspay = '/img/Logo_Buspay_Base.png'
-  const Scipopulis = '/img/marca_scipopulis-25.png'
-  const NTU = '/img/NTU.png'
+import { links } from '../../../../../sancathonx/const/links'
 
+export const ApoioSection = () => {
   return (
     <Box
-      bgColor="#FFF"
-      bgImage="/img/Hex.png"
+      as="section"
+      bgColor="white"
+      bgImage="/img/hex.png, /img/hex.png"
       bgPosition="right"
       bgRepeat="no-repeat"
-      pb="28"
+      pt="16"
+      pb="20"
     >
-      <Center>
-        <Heading
-          textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff"
-          pt="16"
-          color="#FFF"
-        >
-          APOIO
-        </Heading>
-      </Center>
-      <HStack spacing="5%" mt="30" mx="32">
-        <Box>
-          <Link href="https://www.buspay.com.br/">
-            <Image src={Buspay} />
-          </Link>
-        </Box>
-        <Box>
-          <Link href="https://ntu.org.br/novo/Default.aspx?v=1232">
-            <Image src={NTU} />
-          </Link>
-        </Box>
-        <Box>
-          <Link href="https://scipopulis.com/">
-            <Image src={Scipopulis} />
-          </Link>
-        </Box>
-      </HStack>
+      <Heading
+        textAlign="center"
+        as="h1"
+        fontWeight="black"
+        color="transparent"
+        fontSize="5xl"
+        sx={{ WebkitTextStroke: '2px #DA0EFC' }}
+      >
+        APOIO
+      </Heading>
+
+      <Flex
+        justifyContent="center"
+        wrap="wrap"
+        fontWeight="bold"
+        mt="20"
+        mx="auto"
+      >
+        <Link href={links.buspay} isExternal>
+          <Flex as="a" mx="10" mt="8" h="36" align="center">
+            <Image src="/img/logo-buspay.png" width={422} height={84} />
+          </Flex>
+        </Link>
+
+        <Link href={links.ntu} isExternal>
+          <Flex as="a" mx="10" mt="8" h="36" align="center">
+            <Image src="/img/logo-scipopulis.png" width={415} height={105} />
+          </Flex>
+        </Link>
+
+        <Link href={links.scipopulis} isExternal>
+          <Flex as="a" mx="10" mt="8" h="36" align="center">
+            <Image src="/img/logo-ntu.png" width={231} height={137} />
+          </Flex>
+        </Link>
+      </Flex>
     </Box>
   )
 }
