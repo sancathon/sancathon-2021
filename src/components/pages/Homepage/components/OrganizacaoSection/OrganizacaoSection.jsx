@@ -1,52 +1,57 @@
-import { Box, Center, Heading, HStack, Link } from '@chakra-ui/react'
+import { Box, Flex, Heading, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
 export const OrganizacaoSection = () => {
-  const EESC = '/img/EESC.png'
-  const NEU = '/img/NEU.png'
-  const SEA = '/img/SEA.png'
-  const SIEEL = '/img/SIEEL.png'
-  const USP = '/img/USP.png'
-
   return (
-    <Box bgColor="#FFF" pb="28">
-      <Center>
-        <Heading
-          textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff"
-           
-          pt="16"
-          color="#FFF"
-        >
-          ORGANIZAÇÃO:
-        </Heading>
-      </Center>
-      <HStack spacing="5%" mt="30" mx={{ base: '52', md: '32' }}>
-        <Center>
-          <Link isExternal href="https://www5.usp.br/">
-            <Image width="180px" height="135px" src={USP} />
-          </Link>
-        </Center>
-        <Center>
-          <Link isExternal href="https://eesc.usp.br/">
-            <Image width="93px" height="98px" src={EESC} />
-          </Link>
-        </Center>
-        <Center>
-          <Link isExternal href="https://www.facebook.com/SEA.EESC">
-            <Image width="180px" height="135px" src={SEA} />
-          </Link>
-        </Center>
-        <Center>
-          <Link isExternal href="https://www.facebook.com/neusaocarlos">
-            <Image width="221px" height="110px" src={NEU} />
-          </Link>
-        </Center>
-        <Center>
-          <Link isExternal href="https://www.facebook.com/SIEELSaoCarlos">
-            <Image width="158px" height="158px" src={SIEEL} />
-          </Link>
-        </Center>
-      </HStack>
+    <Box bgColor="white" as="section" pt="16" pb="20">
+      <Heading
+        textAlign="center"
+        as="h1"
+        fontWeight="black"
+        color="transparent"
+        fontSize={{ base: '4xl', sm: '5xl' }}
+        sx={{ WebkitTextStroke: '2px #DA0EFC' }}
+      >
+        ORGANIZAÇÃO:
+      </Heading>
+
+      <Flex
+        justifyContent="center"
+        wrap="wrap"
+        fontWeight="bold"
+        mt={{ base: '0', md: '20' }}
+        mx="auto"
+      >
+        <Link isExternal href="https://www5.usp.br/">
+          <Flex align="center" height="14" as="a" mx="8" mt="12">
+            <Image width={180} height={135} src="/img/USP.png" />
+          </Flex>
+        </Link>
+
+        <Link isExternal href="https://eesc.usp.br/">
+          <Flex align="center" height="14" as="a" mx="8" mt="12">
+            <Image width={93} height={98} src="/img/EESC.png" />
+          </Flex>
+        </Link>
+
+        <Link isExternal href="https://www.facebook.com/SEA.EESC">
+          <Flex align="center" height="14" as="a" mx="8" mt="12">
+            <Image width={251} height={129} src="/img/SEA.png" />
+          </Flex>
+        </Link>
+
+        <Link isExternal href="https://www.facebook.com/neusaocarlos">
+          <Flex align="center" height="14" as="a" mx="8" mt="12">
+            <Image width={221} height={110} src="/img/neu.png" />
+          </Flex>
+        </Link>
+
+        <Link isExternal href="https://www.facebook.com/SIEELSaoCarlos">
+          <Flex align="center" height="14" as="a" mx="8" mt="12">
+            <Image width={158} height={158} src="/img/SIEEL.png" />
+          </Flex>
+        </Link>
+      </Flex>
     </Box>
   )
 }

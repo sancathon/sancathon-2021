@@ -1,7 +1,11 @@
 export const links = {
   buspay: 'https://www.buspay.com.br/',
 
+  eesc: 'https://eesc.usp.br/',
+
   inscricao: 'https://forms.gle/tGYLEAhLXpR9NL3E6',
+
+  neu: 'https://www.facebook.com/neusaocarlos',
 
   ntu: 'https://ntu.org.br/novo/Default.aspx?v=1232',
 
@@ -18,5 +22,11 @@ export const links = {
     mail: 'mailto:sancathon@eesc.usp.br'
   },
 
-  scipopulis: 'https://scipopulis.com/'
+  scipopulis: 'https://scipopulis.com/',
+
+  sea: 'https://www.facebook.com/SEA.EESC',
+
+  sieel: 'https://www.facebook.com/SIEELSaoCarlos',
+
+  usp: 'https://www5.usp.br/'
 }
