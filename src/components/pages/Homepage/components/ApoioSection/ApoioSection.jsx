@@ -32,20 +32,44 @@ export const ApoioSection = () => {
         mt={{ base: '0', md: '20' }}
         mx="auto"
       >
-        <Link href={links.buspay} isExternal>
-          <Flex as="a" mx="10" mt="8" h="36" align="center">
+        <Link
+          href={links.buspay}
+          isExternal
+          display="flex"
+          alignItems="  center"
+          mx="10"
+          mt="8"
+          h="36"
+        >
+          <Flex as="a">
             <Image src="/img/logo-buspay.png" width={422} height={84} />
           </Flex>
         </Link>
 
-        <Link href={links.scipopulis} isExternal>
-          <Flex as="a" mx="10" mt="8" h="36" align="center">
+        <Link
+          href={links.scipopulis}
+          isExternal
+          display="flex"
+          alignItems="  center"
+          mx="10"
+          mt="8"
+          h="36"
+        >
+          <Flex as="a">
             <Image src="/img/logo-scipopulis.png" width={415} height={105} />
           </Flex>
         </Link>
 
-        <Link href={links.ntu} isExternal>
-          <Flex as="a" mx="10" mt="8" h="36" align="center">
+        <Link
+          href={links.ntu}
+          isExternal
+          display="flex"
+          alignItems="  center"
+          mx="10"
+          mt="8"
+          h="36"
+        >
+          <Flex as="a">
             <Image src="/img/logo-ntu.png" width={231} height={137} />
           </Flex>
         </Link>

@@ -22,32 +22,67 @@ export const OrganizacaoSection = () => {
         mt={{ base: '0', md: '20' }}
         mx="auto"
       >
-        <Link isExternal href="https://www5.usp.br/">
-          <Flex align="center" height="14" as="a" mx="8" mt="12">
+        <Link
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="8"
+          mt="12"
+          href="https://www5.usp.br/"
+        >
+          <Flex as="a">
             <Image width={180} height={135} src="/img/USP.png" />
           </Flex>
         </Link>
 
-        <Link isExternal href="https://eesc.usp.br/">
-          <Flex align="center" height="14" as="a" mx="8" mt="12">
+        <Link
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="8"
+          mt="12"
+          href="https://eesc.usp.br/"
+        >
+          <Flex as="a">
             <Image width={93} height={98} src="/img/EESC.png" />
           </Flex>
         </Link>
 
-        <Link isExternal href="https://www.facebook.com/SEA.EESC">
-          <Flex align="center" height="14" as="a" mx="8" mt="12">
+        <Link
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="8"
+          mt="12"
+          href="https://www.facebook.com/SEA.EESC"
+        >
+          <Flex as="a">
             <Image width={251} height={129} src="/img/SEA.png" />
           </Flex>
         </Link>
 
-        <Link isExternal href="https://www.facebook.com/neusaocarlos">
-          <Flex align="center" height="14" as="a" mx="8" mt="12">
+        <Link
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="8"
+          mt="12"
+          href="https://www.facebook.com/neusaocarlos"
+        >
+          <Flex as="a">
             <Image width={221} height={110} src="/img/neu.png" />
           </Flex>
         </Link>
 
-        <Link isExternal href="https://www.facebook.com/SIEELSaoCarlos">
-          <Flex align="center" height="14" as="a" mx="8" mt="12">
+        <Link
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="8"
+          mt="12"
+          href="https://www.facebook.com/SIEELSaoCarlos"
+        >
+          <Flex as="a">
             <Image width={158} height={158} src="/img/SIEEL.png" />
           </Flex>
         </Link>
