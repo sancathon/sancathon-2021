@@ -97,6 +97,7 @@ export const SancathonSection = () => {
               bg="psyPurple"
               w="48"
               h="12"
+              borderRadius="none"
               _hover={{ bg: 'darkPurple' }}
             >
               INSCREVA-SE

@@ -2,5 +2,6 @@
 export const colors = {
   psyPurple: '#DA0EFC',
   darkPurple: '#C50DE5',
-  darkGray: '#302E2E'
+  darkGray: '#302E2E',
+  mariner: '#3C64B1'
 }
