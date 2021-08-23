@@ -1,6 +1,6 @@
 import { Box, Flex, Container, Icon, Center, Heading, Text, Link} from "@chakra-ui/react"
 import Image from 'next/image'
-import bg_sc from "../../../../../public/img/Sao_Carlos.png"
+import bg_sc from "/img/Sao_Carlos.png"
 
 export const SegundoPainel = () =>{
   return(
@@ -36,7 +36,7 @@ export const SegundoPainel = () =>{
             <Text align="right" fontSize='xx-small'>Foto: Alberto Medeiros - Pinterest</Text>
           </Box>
         </Flex>
-        <Center>Para mais informações e um cronograma detalhado, consulte o <Link href='' color='red'> regulamento do evento</Link></Center>
+        <Center>Para mais informações e um cronograma detalhado, consulte o <Link ml='1' href='https://docs.google.com/document/d/1JEVvmQWqASfkWdQ0ELEhA0s-oDh5mjdJNb-ThNRg2XM/edit?usp=drivesdk' color='red'> regulamento do evento</Link></Center>
         </Box>
   )
 }
