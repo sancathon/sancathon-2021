@@ -75,7 +75,7 @@ export const DesafioSection = () => {
         </Box>
       </Flex>
 
-      <Text w="full" textAlign="center">
+      <Text w="full" textAlign="center" mb="5">
         Para mais informações e um cronograma detalhado, consulte o
         <Link ml="1" href={links.regulamento} color="red">
           regulamento do evento
