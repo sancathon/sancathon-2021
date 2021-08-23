@@ -1,10 +1,23 @@
-import { SancathonSection } from './components'
+import {
+  ApoioSection,
+  ContatosSection,
+  CronogramaSection,
+  DesafioSection,
+  OrganizacaoSection,
+  PremiacaoSection,
+  SancathonSection
+} from './components'
 
 export const Homepage = () => {
   return (
     <>
       <SancathonSection />
-      <div>simple example</div>
+      <DesafioSection />
+      <CronogramaSection />
+      <ApoioSection />
+      <PremiacaoSection />
+      <ContatosSection />
+      <OrganizacaoSection />
     </>
   )
 }
