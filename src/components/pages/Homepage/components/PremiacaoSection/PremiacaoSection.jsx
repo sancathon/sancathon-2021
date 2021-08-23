@@ -20,7 +20,7 @@ export const PremiacaoSection = () => {
       <Center>
         <Heading
           textShadow="0 0 8px #DA0EFC, 0 0 2px #000, -1px 0 2px #DA0EFC, 0 0 3px #fff"
-          fontFamily="roboto"
+           
           pt="16"
           color="#FFF"
         >

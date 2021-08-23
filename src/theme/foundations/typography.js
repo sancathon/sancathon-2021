@@ -1,5 +1,6 @@
 export const typography = {
   fontSizes: {
+    '2xs': '0.5rem',
     '6xl': '4rem'
   },
 

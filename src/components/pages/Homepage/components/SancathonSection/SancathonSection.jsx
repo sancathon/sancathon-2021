@@ -6,7 +6,7 @@ import { Square } from '../../../../atoms/Icon'
 
 export const SancathonSection = () => {
   return (
-    <Flex direction="column" align="center" w="full" minH="xl">
+    <Flex as="section" direction="column" align="center" w="full" minH="xl">
       <Flex
         w="full"
         direction={{ base: 'column', lg: 'row' }}
@@ -32,7 +32,6 @@ export const SancathonSection = () => {
             backgroundImage="/img/first-section-bg.png"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-            alt="Foto: Nabeel Syed -By Unsplash"
           />
         </Box>
 
@@ -65,6 +64,7 @@ export const SancathonSection = () => {
           textAlign="center"
         >
           <Heading
+            as="h1"
             fontWeight="black"
             color="transparent"
             fontSize="5xl"
@@ -92,7 +92,7 @@ export const SancathonSection = () => {
           <Link href={links.inscricao} isExternal>
             <Button
               as="a"
-              fontWeight="400"
+              fontWeight="700"
               color="white"
               bg="psyPurple"
               w="48"
@@ -104,6 +104,14 @@ export const SancathonSection = () => {
           </Link>
         </Box>
       </Flex>
+      <Text
+        w="full"
+        textAlign="right"
+        pr={{ base: 5, md: '20' }}
+        fontSize="2xs"
+      >
+        Foto: Nabeel Syed -By Unsplash
+      </Text>
     </Flex>
   )
 }
