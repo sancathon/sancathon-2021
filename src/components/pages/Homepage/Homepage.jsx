@@ -23,6 +23,7 @@ import {
   PremiacaoSection,
   SancathonSection
 } from './components'
+import { Footer } from './components/Footer'
 
 export const Homepage = () => {
   const [activeSection, setActiveSection] = useState('')
@@ -358,6 +359,8 @@ export const Homepage = () => {
       <Element id="organizacao" className="element">
         <OrganizacaoSection />
       </Element>
+
+      <Footer />
     </>
   )
 }

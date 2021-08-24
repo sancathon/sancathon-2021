@@ -7,10 +7,18 @@ export const links = {
 
   inscricao: 'https://forms.gle/tGYLEAhLXpR9NL3E6',
 
+  joseGabriel: 'https://www.linkedin.com/in/jose-guilherme-rocha/',
+
+  joseVictor: 'https://www.linkedin.com/in/jvictordantas/',
+
+  marine: 'https://www.linkedin.com/in/marinegolfetto/',
+
   neu: 'https://www.facebook.com/neusaocarlos',
 
   regulamento:
     'https://docs.google.com/document/d/1JEVvmQWqASfkWdQ0ELEhA0s-oDh5mjdJNb-ThNRg2XM/edit?usp=drivesdk',
+
+  repositorio: 'https://github.com/sancathon/sancathon-2021',
 
   sancathon: {
     email: 'mailto:sancathon@eesc.usp.br',
