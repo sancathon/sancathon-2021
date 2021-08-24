@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import { links } from '../../../../../sancathonx/const/links'
 import { Square } from '../../../../atoms/Icon'
+import { loader } from '../../../../atoms/loader'
 
 export const SancathonSection = () => {
   return (
@@ -37,6 +38,7 @@ export const SancathonSection = () => {
 
         <Box position="absolute" w="1525px" height="526px" top="3px" right="0">
           <Image
+            loader={loader}
             src="/img/lines.png"
             alt="Background Lines"
             layout="responsive"
@@ -49,6 +51,7 @@ export const SancathonSection = () => {
 
         <Box mt={{ base: 20, lg: 0 }} w={{ base: '2xs', lg: 'sm' }}>
           <Image
+            loader={loader}
             src="/img/logo.png"
             alt="SancaThon logo"
             layout="responsive"
