@@ -1,13 +1,13 @@
 export const links = {
   buspay: 'https://www.buspay.com.br/',
 
+  coletivo: 'https://www.coletivo.org.br/',
+
   eesc: 'https://eesc.usp.br/',
 
   inscricao: 'https://forms.gle/tGYLEAhLXpR9NL3E6',
 
   neu: 'https://www.facebook.com/neusaocarlos',
-
-  ntu: 'https://ntu.org.br/novo/Default.aspx?v=1232',
 
   regulamento:
     'https://docs.google.com/document/d/1JEVvmQWqASfkWdQ0ELEhA0s-oDh5mjdJNb-ThNRg2XM/edit?usp=drivesdk',
@@ -25,6 +25,8 @@ export const links = {
   scipopulis: 'https://scipopulis.com/',
 
   sea: 'https://www.facebook.com/SEA.EESC',
+
+  shawee: 'https://shawee.io/',
 
   sieel: 'https://www.facebook.com/SIEELSaoCarlos',
 

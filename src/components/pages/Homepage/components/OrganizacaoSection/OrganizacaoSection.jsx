@@ -30,9 +30,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www5.usp.br/"
         >
-          <Flex as="a">
-            <Image width={180} height={135} src="/img/USP.png" />
-          </Flex>
+          <Image width={180} height={135} src="/img/USP.png" />
         </Link>
 
         <Link
@@ -43,9 +41,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://eesc.usp.br/"
         >
-          <Flex as="a">
-            <Image width={93} height={98} src="/img/EESC.png" />
-          </Flex>
+          <Image width={93} height={98} src="/img/EESC.png" />
         </Link>
 
         <Link
@@ -56,9 +52,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/SEA.EESC"
         >
-          <Flex as="a">
-            <Image width={251} height={129} src="/img/SEA.png" />
-          </Flex>
+          <Image width={251} height={129} src="/img/SEA.png" />
         </Link>
 
         <Link
@@ -69,9 +63,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/neusaocarlos"
         >
-          <Flex as="a">
-            <Image width={221} height={110} src="/img/neu.png" />
-          </Flex>
+          <Image width={221} height={110} src="/img/neu.png" />
         </Link>
 
         <Link
@@ -82,9 +74,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/SIEELSaoCarlos"
         >
-          <Flex as="a">
-            <Image width={158} height={158} src="/img/SIEEL.png" />
-          </Flex>
+          <Image width={158} height={158} src="/img/SIEEL.png" />
         </Link>
       </Flex>
     </Box>

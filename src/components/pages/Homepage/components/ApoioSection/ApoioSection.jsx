@@ -37,42 +37,64 @@ export const ApoioSection = () => {
           href={links.buspay}
           isExternal
           display="flex"
-          alignItems="  center"
+          alignItems="center"
           mx="10"
           mt="8"
-          h="36"
         >
-          <Flex as="a">
-            <Image src="/img/logo-buspay.png" width={422} height={84} />
-          </Flex>
+          <Image
+            src="/img/logo-buspay.png"
+            layout="fixed"
+            width={284}
+            height={57}
+          />
         </Link>
 
         <Link
           href={links.scipopulis}
           isExternal
           display="flex"
-          alignItems="  center"
+          alignItems="center"
           mx="10"
           mt="8"
-          h="36"
         >
-          <Flex as="a">
-            <Image src="/img/logo-scipopulis.png" width={415} height={105} />
-          </Flex>
+          <Image
+            src="/img/logo-scipopulis.png"
+            layout="fixed"
+            width={280}
+            height={72}
+          />
         </Link>
 
         <Link
-          href={links.ntu}
+          href={links.coletivo}
           isExternal
           display="flex"
-          alignItems="  center"
+          alignItems="center"
           mx="10"
           mt="8"
-          h="36"
         >
-          <Flex as="a">
-            <Image src="/img/logo-ntu.png" width={231} height={137} />
-          </Flex>
+          <Image
+            src="/img/logo-coletivo.png"
+            layout="fixed"
+            width={256}
+            height={183}
+          />
+        </Link>
+
+        <Link
+          href={links.shawee}
+          isExternal
+          display="flex"
+          alignItems="center"
+          mx="10"
+          mt="8"
+        >
+          <Image
+            src="/img/logo-shawee.png"
+            layout="fixed"
+            width={282}
+            height={109}
+          />
         </Link>
       </Flex>
     </Box>

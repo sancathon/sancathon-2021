@@ -37,9 +37,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Flex as="a">
-            <Image width={71} height={71} src="/img/social/instagram.png" />
-          </Flex>
+          <Image width={71} height={71} src="/img/social/instagram.png" />
         </Link>
 
         <Link
@@ -51,9 +49,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Flex as="a">
-            <Image width={71} height={71} src="/img/social/facebook.png" />
-          </Flex>
+          <Image width={71} height={71} src="/img/social/facebook.png" />
         </Link>
 
         <Link
@@ -65,9 +61,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Flex as="a">
-            <Image width={71} height={71} src="/img/social/linkedin.png" />
-          </Flex>
+          <Image width={71} height={71} src="/img/social/linkedin.png" />
         </Link>
 
         <Link
@@ -79,9 +73,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Flex as="a">
-            <Image width={71} height={71} src="/img/social/email.png" />
-          </Flex>
+          <Image width={71} height={71} src="/img/social/email.png" />
         </Link>
       </Flex>
     </Box>
