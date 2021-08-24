@@ -33,6 +33,7 @@ export const ContatosSection = () => {
           href={links.sancathon.instagram}
           display="flex"
           alignItems="center"
+          boxSize="71px"
           mx="8"
           mt="8"
         >
@@ -46,6 +47,7 @@ export const ContatosSection = () => {
           href={links.sancathon.facebook}
           display="flex"
           alignItems="center"
+          boxSize="71px"
           mx="8"
           mt="8"
         >
@@ -59,6 +61,7 @@ export const ContatosSection = () => {
           href={links.sancathon.linkedin}
           display="flex"
           alignItems="center"
+          boxSize="71px"
           mx="8"
           mt="8"
         >
@@ -72,6 +75,7 @@ export const ContatosSection = () => {
           href={links.sancathon.email}
           display="flex"
           alignItems="center"
+          boxSize="71px"
           mx="8"
           mt="8"
         >

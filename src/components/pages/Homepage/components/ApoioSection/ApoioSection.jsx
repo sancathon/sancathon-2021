@@ -11,6 +11,7 @@ export const ApoioSection = () => {
       bgImage="url(/img/hex.png)"
       bgPosition="right top"
       bgRepeat="no-repeat"
+      px="2"
       pt="16"
       pb={{ base: 20, md: '48' }}
     >

@@ -26,11 +26,11 @@ export const CronogramaSection = () => {
         justifyContent="center"
         wrap="wrap"
         fontWeight="bold"
-        mt="32"
+        mt={{ base: '16', md: '32' }}
         mx="auto"
       >
         <Box align="center" w="72" color="white" mt="12">
-          <Text h="4.5rem" fontSize="2xl">
+          <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Inscrições
           </Text>
           <Text mt="2">23/08/2021 a 03/09/2021</Text>
@@ -38,7 +38,7 @@ export const CronogramaSection = () => {
         </Box>
 
         <Box align="center" w="72" color="white" mt="12">
-          <Text h="4.5rem" fontSize="2xl">
+          <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Warmup e imersão
           </Text>
           <Text mt="2">05/09/2021 a 10/09/2021</Text>
@@ -62,7 +62,7 @@ export const CronogramaSection = () => {
         </Box>
 
         <Box align="center" w="72" color="white" mt="12">
-          <Text h="4.5rem" fontSize="2xl">
+          <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Resultado <bk /> Final
           </Text>
           <Text mt="2">a divulgar</Text>
