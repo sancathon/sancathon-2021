@@ -1,9 +1,19 @@
-import { Button, Flex, HStack, Link, Text } from '@chakra-ui/react'
+import {
+  Button,
+  Flex,
+  HStack,
+  Link,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  Text
+} from '@chakra-ui/react'
 import { useState } from 'react'
 import { Element, Link as ScrollLink } from 'react-scroll'
 
 import { links } from '../../../sancathonx/const/links'
-import { SancathonLogo } from '../../atoms/Icon'
+import { HamburgerIcon, SancathonLogo } from '../../atoms/Icon'
 import {
   ApoioSection,
   ContatosSection,
@@ -28,7 +38,7 @@ export const Homepage = () => {
         zIndex="2000"
         w="full"
         h="20"
-        px="20"
+        px={{ base: '5', md: '20' }}
         mx="auto"
         maxW="8xl"
         align="center"
@@ -38,17 +48,151 @@ export const Homepage = () => {
         top="0"
         fontSize="sm"
       >
-        <ScrollLink
-          to="sancathon"
-          spy={true}
-          smooth={true}
-          duration={500}
-          hashSpy={true}
-          offset={-50}
-          onSetActive={() => handleSetActive('sancathon')}
-        >
-          <SancathonLogo w="52" h="12" />
-        </ScrollLink>
+        <Flex align="center">
+          <Menu>
+            <MenuButton
+              aria-label="Options"
+              icon={<HamburgerIcon />}
+              variant="unstyled"
+              mr="4"
+            >
+              <HamburgerIcon
+                boxSize="8"
+                display={{ base: 'flex', xl: 'none' }}
+              />
+            </MenuButton>
+
+            <MenuList bg="white">
+              <MenuItem>
+                <ScrollLink
+                  to="desafio"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('desafio')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={activeSection === 'desafio' ? 'mariner' : 'black'}
+                  >
+                    Desafio
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+
+              <MenuItem>
+                <ScrollLink
+                  to="cronograma"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('cronograma')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={activeSection === 'cronograma' ? 'mariner' : 'black'}
+                  >
+                    Cronograma
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+
+              <MenuItem>
+                <ScrollLink
+                  to="apoio"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('apoio')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={activeSection === 'apoio' ? 'mariner' : 'black'}
+                  >
+                    Apoio
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+
+              <MenuItem>
+                <ScrollLink
+                  to="premiacao"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('premiacao')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={activeSection === 'premiacao' ? 'mariner' : 'black'}
+                  >
+                    Premiação
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+
+              <MenuItem>
+                <ScrollLink
+                  to="contatos"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('contatos')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={activeSection === 'contatos' ? 'mariner' : 'black'}
+                  >
+                    Contatos
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+
+              <MenuItem>
+                <ScrollLink
+                  to="organizacao"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  hashSpy={true}
+                  offset={-50}
+                  onSetActive={() => handleSetActive('organizacao')}
+                >
+                  <Text
+                    cursor="pointer"
+                    color={
+                      activeSection === 'organizacao' ? 'mariner' : 'black'
+                    }
+                  >
+                    Organização
+                  </Text>
+                </ScrollLink>
+              </MenuItem>
+            </MenuList>
+          </Menu>
+
+          <ScrollLink
+            to="sancathon"
+            spy={true}
+            smooth={true}
+            duration={500}
+            hashSpy={true}
+            offset={-50}
+            onSetActive={() => handleSetActive('sancathon')}
+          >
+            <SancathonLogo w="52" h="12" />
+          </ScrollLink>
+        </Flex>
 
         <HStack
           display={{ base: 'none', xl: 'flex' }}
@@ -120,7 +264,7 @@ export const Homepage = () => {
               cursor="pointer"
               color={activeSection === 'premiacao' ? 'mariner' : 'black'}
             >
-              Premiacao
+              Premiação
             </Text>
           </ScrollLink>
 
@@ -159,7 +303,7 @@ export const Homepage = () => {
           </ScrollLink>
         </HStack>
 
-        <Flex align="center">
+        <Flex display={{ base: 'none', md: 'flex' }} align="center">
           <Link
             href={links.regulamento}
             color="mariner"

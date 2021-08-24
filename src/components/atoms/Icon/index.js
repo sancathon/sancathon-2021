@@ -1,4 +1,5 @@
 export { CubeIcon } from './CubeIcon'
+export { HamburgerIcon } from './HamburgerIcon'
 export { PcScreenIcon } from './PcScreenIcon'
 export { SancathonLogo } from './SancathonLogo'
 export { Square } from './Square'
