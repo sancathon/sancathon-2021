@@ -53,7 +53,7 @@ export const Footer = () => {
           </Link>
 
           <Link isExternal href={links.joseGuilherme} fontWeight="700" mx="2">
-            José Gabriel
+            José Guilherme
           </Link>
 
           <Link isExternal href={links.marine} fontWeight="700" mx="2">
