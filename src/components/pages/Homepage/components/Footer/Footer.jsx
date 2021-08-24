@@ -48,15 +48,15 @@ export const Footer = () => {
           <Text fontWeight="700" my="2" mr="2">
             Made by:
           </Text>
-          <Link isExternal href={links.repositorio} fontWeight="700" mx="2">
+          <Link isExternal href={links.joseVictor} fontWeight="700" mx="2">
             Zé Victor
           </Link>
 
-          <Link isExternal href={links.repositorio} fontWeight="700" mx="2">
+          <Link isExternal href={links.joseGuilherme} fontWeight="700" mx="2">
             José Gabriel
           </Link>
 
-          <Link isExternal href={links.repositorio} fontWeight="700" mx="2">
+          <Link isExternal href={links.marine} fontWeight="700" mx="2">
             Marine
           </Link>
         </Flex>

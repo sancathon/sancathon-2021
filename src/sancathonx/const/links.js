@@ -7,7 +7,7 @@ export const links = {
 
   inscricao: 'https://forms.gle/tGYLEAhLXpR9NL3E6',
 
-  joseGabriel: 'https://www.linkedin.com/in/jose-guilherme-rocha/',
+  joseGuilherme: 'https://www.linkedin.com/in/jose-guilherme-rocha/',
 
   joseVictor: 'https://www.linkedin.com/in/jvictordantas/',
 
