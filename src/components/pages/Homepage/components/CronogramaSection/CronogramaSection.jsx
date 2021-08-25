@@ -33,7 +33,7 @@ export const CronogramaSection = () => {
           <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Inscrições
           </Text>
-          <Text mt="2">24/08/2021 - 03/09/2021</Text>
+          <Text mt="2">25/08/2021 - 03/09/2021</Text>
           <Text fontSize="xs">Até 18h00</Text>
         </Box>
 
