@@ -33,29 +33,38 @@ export const CronogramaSection = () => {
           <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Inscrições
           </Text>
-          <Text mt="2">23/08/2021 a 03/09/2021</Text>
-          <Text fontSize="xs">12h00 12h00</Text>
+          <Text mt="2">24/08/2021 - 03/09/2021</Text>
+          <Text fontSize="xs">Até 18h00</Text>
+        </Box>
+
+        <Box align="center" w="72" color="white" mt="12">
+          <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
+            Inscrições em <br />
+            Grupo
+          </Text>
+          <Text mt="2">06/09/2021 - 09/09/2021</Text>
+          <Text fontSize="xs">Até 18h00</Text>
         </Box>
 
         <Box align="center" w="72" color="white" mt="12">
           <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
             Warmup e imersão
           </Text>
-          <Text mt="2">05/09/2021 a 10/09/2021</Text>
-          <Text fontSize="xs">12h00 18h00</Text>
+          <Text mt="2">06/09/2021 a 08/09/2021</Text>
+          <Text fontSize="xs">Até 22h00</Text>
         </Box>
 
         <Box align="center" w="72" color="white" mt="12">
           <Text h="4.5rem" fontSize="2xl">
-            Maratona de <bk /> desenvolvimento
+            Maratona de <br /> desenvolvimento
           </Text>
           <Text mt="2">10/09/2021 a 12/09/2021</Text>
-          <Text fontSize="xs">18h00 18h00</Text>
+          <Text fontSize="xs">00h00 19h00</Text>
         </Box>
 
         <Box align="center" w="72" color="white" mt="12">
           <Text h="4.5rem" fontSize="2xl">
-            Entrega da <bk /> solução desenvolvida
+            Entrega da <br /> solução desenvolvida
           </Text>
           <Text mt="2">12/09/2021</Text>
           <Text fontSize="xs">19h00</Text>
@@ -63,9 +72,10 @@ export const CronogramaSection = () => {
 
         <Box align="center" w="72" color="white" mt="12">
           <Text h={{ base: 'auto', md: '4.5rem' }} fontSize="2xl">
-            Resultado <bk /> Final
+            Resultado <br /> Final
           </Text>
-          <Text mt="2">a divulgar</Text>
+          <Text mt="2">24/09/2021</Text>
+          <Text fontSize="xs">19h00</Text>
         </Box>
       </Flex>
     </Box>
