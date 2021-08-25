@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import { links } from '../../../../../sancathonx/const/links'
 import { CubeIcon, PcScreenIcon } from '../../../../atoms/Icon'
-import { loader } from '../../../../atoms/loader'
 
 export const DesafioSection = () => {
   return (
@@ -46,12 +45,7 @@ export const DesafioSection = () => {
 
         <Box my={{ base: 8, lg: 0 }}>
           <Flex position="relative">
-            <Image
-               
-              src="/img/sao-carlos.png"
-              height={440}
-              width={580}
-            />
+            <Image src="/img/sao-carlos.png" height={440} width={580} />
 
             <Box
               w="100%"
