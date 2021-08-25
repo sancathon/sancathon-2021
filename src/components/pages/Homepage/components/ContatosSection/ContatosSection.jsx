@@ -2,7 +2,6 @@ import { Box, Flex, Heading, Link, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
 import { links } from '../../../../../sancathonx/const/links'
-import { loader } from '../../../../atoms/loader'
 
 export const ContatosSection = () => {
   return (
@@ -38,12 +37,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Image
-            loader={loader}
-            width={71}
-            height={71}
-            src="/img/social/instagram.png"
-          />
+          <Image width={71} height={71} src="/img/social/instagram.png" />
         </Link>
 
         <Link
@@ -55,12 +49,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Image
-            loader={loader}
-            width={71}
-            height={71}
-            src="/img/social/facebook.png"
-          />
+          <Image width={71} height={71} src="/img/social/facebook.png" />
         </Link>
 
         <Link
@@ -72,12 +61,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Image
-            loader={loader}
-            width={71}
-            height={71}
-            src="/img/social/linkedin.png"
-          />
+          <Image width={71} height={71} src="/img/social/linkedin.png" />
         </Link>
 
         <Link
@@ -89,12 +73,7 @@ export const ContatosSection = () => {
           mx="8"
           mt="8"
         >
-          <Image
-            loader={loader}
-            width={71}
-            height={71}
-            src="/img/social/email.png"
-          />
+          <Image width={71} height={71} src="/img/social/email.png" />
         </Link>
       </Flex>
     </Box>

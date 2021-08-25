@@ -2,7 +2,6 @@ import { Box, Flex, Heading, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
 import { links } from '../../../../../sancathonx/const/links'
-import { loader } from '../../../../atoms/loader'
 
 export const ApoioSection = () => {
   return (
@@ -43,7 +42,6 @@ export const ApoioSection = () => {
           mt="8"
         >
           <Image
-            loader={loader}
             src="/img/logo-buspay.png"
             layout="fixed"
             width={284}
@@ -60,7 +58,6 @@ export const ApoioSection = () => {
           mt="8"
         >
           <Image
-            loader={loader}
             src="/img/logo-scipopulis.png"
             layout="fixed"
             width={280}
@@ -77,7 +74,6 @@ export const ApoioSection = () => {
           mt="8"
         >
           <Image
-            loader={loader}
             src="/img/logo-coletivo.png"
             layout="fixed"
             width={256}
@@ -94,7 +90,6 @@ export const ApoioSection = () => {
           mt="8"
         >
           <Image
-            loader={loader}
             src="/img/logo-shawee.png"
             layout="fixed"
             width={282}

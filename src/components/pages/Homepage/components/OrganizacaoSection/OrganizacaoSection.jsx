@@ -1,8 +1,6 @@
 import { Box, Flex, Heading, Link } from '@chakra-ui/react'
 import Image from 'next/image'
 
-import { loader } from '../../../../atoms/loader'
-
 export const OrganizacaoSection = () => {
   return (
     <Box bgColor="white" as="section" pt="16" pb="20">
@@ -32,7 +30,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www5.usp.br/"
         >
-          <Image loader={loader} width={180} height={135} src="/img/USP.png" />
+          <Image width={180} height={135} src="/img/USP.png" />
         </Link>
 
         <Link
@@ -43,7 +41,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://eesc.usp.br/"
         >
-          <Image loader={loader} width={93} height={98} src="/img/EESC.png" />
+          <Image width={93} height={98} src="/img/EESC.png" />
         </Link>
 
         <Link
@@ -54,7 +52,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/SEA.EESC"
         >
-          <Image loader={loader} width={251} height={129} src="/img/SEA.png" />
+          <Image width={251} height={129} src="/img/SEA.png" />
         </Link>
 
         <Link
@@ -65,7 +63,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/neusaocarlos"
         >
-          <Image loader={loader} width={221} height={110} src="/img/neu.png" />
+          <Image width={221} height={110} src="/img/neu.png" />
         </Link>
 
         <Link
@@ -76,12 +74,7 @@ export const OrganizacaoSection = () => {
           mt="12"
           href="https://www.facebook.com/SIEELSaoCarlos"
         >
-          <Image
-            loader={loader}
-            width={158}
-            height={158}
-            src="/img/SIEEL.png"
-          />
+          <Image width={158} height={158} src="/img/SIEEL.png" />
         </Link>
       </Flex>
     </Box>

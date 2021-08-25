@@ -47,7 +47,7 @@ export const DesafioSection = () => {
         <Box my={{ base: 8, lg: 0 }}>
           <Flex position="relative">
             <Image
-              loader={loader}
+               
               src="/img/sao-carlos.png"
               height={440}
               width={580}
