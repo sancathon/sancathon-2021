@@ -36,8 +36,9 @@ export const DesafioSection = () => {
             <Box>
               <PcScreenIcon boxSize="1.875rem" my="3" />
               <Text w="full" maxW="md">
-                Podem participar estudantes maiores de 18 anos de todas as
-                Universidades Brasileiras.
+                Podem participar maiores de 18 anos que tenham interesses em
+                desenvolver soluções atuando nas áreas de mobilidade urbana,
+                negócios, design/UI/UX e/ou business.
               </Text>
             </Box>
           </Flex>
